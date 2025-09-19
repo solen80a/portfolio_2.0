@@ -1,9 +1,5 @@
 <script>
-
-
-
-
-
+import { CodeIcon } from "@vue-hero-icons/outline"
 
 export default {
   name: 'ContactSection',
@@ -25,7 +21,7 @@ export default {
           
         </a>
         
-        
+        <CodeIcon />
        
 
       </div>
