@@ -6,5 +6,6 @@
     "strict": true,
     "esModuleInterop": true,
      "types": ["node", "vue-router"]
-  }
+  },
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.vue"]
 }

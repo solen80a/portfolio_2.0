@@ -1,5 +1,4 @@
-@import './base.css';
-@import "@nuxt/ui";
+/*@import './base.css';*/
 @import "tailwindcss";
 
 #app {

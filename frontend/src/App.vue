@@ -1,4 +1,7 @@
 <script setup>
+
+import HeaderSection from './components/HeaderSection.vue';
+
 //import HelloWorld from './components/HelloWorld.vue'
 //import TheWelcome from './components/TheWelcome.vue'
 
@@ -9,8 +12,9 @@
 
   
   <header>
-    <img alt="Profile image of Sofia Lennbom" class="logo" src="../public/Sofia.webp" width="125" height="125" />
-    <div><HeaderSection /></div>
+    
+    <HeaderSection />
+   
       <!--<div>
     
      <HelloWorld msg="You did it!" />

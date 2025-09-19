@@ -1,13 +1,14 @@
 
 <script>
 export default {
-  name: 'About-section',
+  name: 'AboutSection',
 }
 </script>
 
 <template>
-  <div class="about">
-    <h1 class="text-3xl font-bold">Hello</h1> 
+  <div> <img alt="Profile image of Sofia Lennbom" class="logo" src="../../Sofia.webp" />
+   
+    <h1 class="text-3xl font-bold text-black">Hello</h1> 
     <h2 class="text-3xl font-bold">I´m Sofia Lennbom</h2>   
     <p>Frontend Developer with a Background in Quality Assurance, </p>
     <p>Technical documentation and Training</p>
