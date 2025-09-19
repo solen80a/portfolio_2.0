@@ -1,6 +1,8 @@
 <script setup>
 
 import HeaderSection from './components/HeaderSection.vue';
+import ProjectCarousel from './components/ProjectCarousel.vue';
+
 
 //import HelloWorld from './components/HelloWorld.vue'
 //import TheWelcome from './components/TheWelcome.vue'
@@ -14,6 +16,7 @@ import HeaderSection from './components/HeaderSection.vue';
   <header>
     
     <HeaderSection />
+    <ProjectCarousel/>
    
       <!--<div>
     
