@@ -9,7 +9,7 @@ const images = Array.from({ length: 10 }, (_, index) => ({
   url: `https://picsum.photos/seed/${Math.random()}/800/600`,
 }))
 
-const carouselConfig = {
+const config = {
   itemsToShow: 2.5,
   wrapAround: true,
   height: 200,  
