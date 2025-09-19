@@ -1,5 +1,5 @@
 <script>
-import { PhoneIcon, MailIcon, LinkedInIcon, GitHubIcon } from "heroicons"
+//import { PhoneIcon, MailIcon, LinkedInIcon, GitHubIcon } from "heroicons"
 
 export default {
   name: 'ContactSection',

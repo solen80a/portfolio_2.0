@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
-    "module": "esnext", // Use 'esnext', 'node16', or another compatible option
+    "module": "node16", // Use 'esnext', 'node16', or another compatible option
     "target": "esnext", // Ensure the target is modern enough
-    "moduleResolution": "node",
+    "moduleResolution": "node16",
     "strict": true,
     "esModuleInterop": true,
      "types": ["node", "vue-router"]
