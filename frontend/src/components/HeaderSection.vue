@@ -12,8 +12,8 @@ export default {
 </script>
 
 <template>
-  <div class="header flex items-center justify-center min-h-screen py-2">
+  <header class="header flex items-center justify-center min-h-screen py-2">     
     <AboutSection />
-    <ContactSection />
-  </div>
+    <ContactSection />  
+  </header> 
 </template>

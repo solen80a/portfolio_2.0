@@ -1,8 +1,23 @@
 {
   "projects": [
     {
+      "name": "Portfolio 2.0",
+      "image": "/assets/seed.svg",
+      "tags": [
+        "Vue.js",
+        "TypeScript",
+        "TailwindCSS",
+        "????"
+      ],
+      "content": "My portfolio 2.0 display my finished projects and show my learning journey from a beginner towards a skilled developer. The portfolio are a combination of team efforts and single projects where my journey started at Technigo JavaScript bootcamp and keeps on growing with new skills and projects.",
+      "netlify": "https://sofialennbom.netlify.app/",
+      "github": "https://github.com/solen80a/portfolio_2.0",
+      "community": "/assets/Sofia.webp",
+      "communityname": "Sofias side projects"
+    },
+    {
       "name": "Subscribee",
-      "image": "assets/subscribee-logo.webp",
+      "image": "/assets/subscribee-logo.webp",
       "tags": [
         "MongoDB",
         "Mongoose",
@@ -12,11 +27,11 @@
       "content": "As part of a collaborative fullstack project, we teamed up to create a application where the user can add all their subscriptions and display them on a dashboard to keep track of them.",
       "netlify": "https://subscribee-project.netlify.app/",
       "github": "https://github.com/ssofiejohansson/project-final",
-      "community": "assets/technigologo.webp"
+      "community": "/assets/technigo.png"
     },
     {
       "name": "Happy Thoughts API",
-      "image": "assets/api.webp",
+      "image": "/assets/green_leaf.svg",
       "tags": [
         "MongoDB",
         "Mongoose",
@@ -26,11 +41,12 @@
       "content": "A single project creating a backend using MongoDB, Mongoose, Express, Node.js, and deployed on Render.",
       "netlify": "https://happy-thoughts-happy-mind.netlify.app/",
       "github": "https://github.com/solen80a/js-project-api",
-      "community": "assets/technigologo.webp"
+      "community": "/assets/technigo.png",
+      "communityname": "Technigo projects"
     },
     {
       "name": "Happy Thoughts",
-      "image": "assets/happy.webp",
+      "image": "/assets/green_leaf.svg",
       "tags": [
         "React",
         "ReactRouter",
@@ -40,11 +56,12 @@
       "content": "As part of a collaborative project, we teamed up to create a app to post happy thoughts. This projects was later connected to backend js-project-api.",
       "netlify": "https://happy-thoughts-happy-mind.netlify.app/",
       "github": "https://github.com/Technigo/js-project-happy-thoughts",
-      "community": "assets/technigologo.webp"
+      "community": "/assets/technigo.png",
+      "communityname": "Technigo projects"
     },
     {
-      "name": "To-Do App using Zustand",
-      "image": "assets/todo.webp",
+      "name": "To-Do App",
+      "image": "/assets/green_leaf.svg",
       "tags": [
         "React",
         "Zustand",
@@ -53,11 +70,12 @@
       "content": "A single project creating a to-do app using Zustand to manage state.",
       "netlify": "https://todo-myday.netlify.app/",
       "github": "https://github.com/solen80a/js-project-todo",
-      "community": "assets/technigologo.webp"
+      "community": "/assets/technigo.png",
+      "communityname": "Technigo projects"
     },
     {
-      "name": "CineVault in React",
-      "image": "assets/movie_app.svg",
+      "name": "CineVault Movie App",
+      "image": "/assets/movie_app.svg",
       "tags": [
         "ReactRouter",
         "API",
@@ -67,11 +85,12 @@
       "content": "As part of a collaborative project, we teamed up to create a multi-page React application that interacts with themoviedb.org's API.",
       "netlify": "https://cinevaultmovie.netlify.app/",
       "github": "https://github.com/solen80a/js-project-movies",
-      "community": "assets/technigologo.webp"
+      "community": "/assets/technigo.png",
+      "communityname": "Technigo projects"
     },
     {
-      "name": "Portfolio in React",
-      "image": "assets/green_leaf.svg",
+      "name": "Portfolio 1.0",
+      "image": "/assets/green_leaf.svg",
       "tags": [
         "HTML5",
         "CSS3",
@@ -81,11 +100,12 @@
       "content": "My portfolio display my finished projects and show my learning journey from a beginner towards a skilled developer. The portfolio are a combination of team efforts and single projects where my journey started at Technigo JavaScript bootcamp and keeps on growing with new skills and projects.",
       "netlify": "https://sofialennbom.netlify.app/",
       "github": "https://github.com/solen80a/js-project-portfoliosofialennbom",
-      "community": "assets/technigologo.webp"
+      "community": "/assets/technigo.png",
+      "communityname": "Technigo projects"
     },
     {
-      "name": "Accessibility Quiz in TypeScript",
-      "image": "../assets/accessibility.svg",
+      "name": "Accessibility Quiz",
+      "image": "/assets/green_leaf.svg",
       "tags": [
         "HTML5",
         "CSS3",
@@ -95,11 +115,12 @@
       "content": "The Accessibility Quiz includes practice required WCAG guidelines, ARIA roles, and best practices for designing inclusive web experiences. By engaging with the quiz, users can assess their understanding and identify areas for improvement in creating accessible digital content. This was a team project where I contributed in the overall basic structure, JavaScript and TypeScript.",
       "netlify": "https://fire2accessibility.netlify.app/",
       "github": "https://github.com/solen80a/js-project-accessibility",
-      "community": "assets/technigologo.webp"
+      "community": "/assets/technigo.png",
+      "communityname": "Technigo projects"
     },
     {
-      "name": "Weather App in TypeScript",
-      "image": "../assets/weather.svg",
+      "name": "Weather App",
+      "image": "/assets/green_leaf.svg",
       "tags": [
         "HTML5",
         "CSS3",
@@ -109,11 +130,12 @@
       "content": "Heather Weather is a sleek and responsive weather app built with TypeScript. This app fetches data from the OpenWeather API and features UI with animations that enhance the user experience. It adapts perfectly to different screen sizes for a seamless experience. This was a team project where I contributed with the overall basic structure, API fetch and TypeScript.",
       "netlify": "https://heatherweather.netlify.app/",
       "github": "https://github.com/solen80a/js-project-weather-app",
-      "community": "assets/technigologo.webp"
+      "community": "/assets/technigo.png",
+      "communityname": "Technigo projects"
     },
     {
-      "name": "Recipie Library in JavaScript",
-      "image": "../assets/RecLib.svg",
+      "name": "Recipie Library",
+      "image": "/assets/green_leaf.svg",
       "tags": [
         "HTML5",
         "CSS3",
@@ -123,7 +145,8 @@
       "content": "This recipe library fetch real recipe data from the Spoonacular API. Users can select filter for diets, and sorting most/least popular and If the user prefer a random button can be clicked to display a radom item.",
       "netlify": "https://sofias-recipe-library.netlify.app/",
       "github": "https://github.com/solen80a/js-project-recipe-library",
-      "community": "assets/technigologo.webp"
+      "community": "/assets/technigo.png",
+      "communityname": "Technigo projects"
     }
   ]
 }

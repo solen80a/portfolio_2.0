@@ -6,7 +6,7 @@ export default {
 </script>
 
 <template>
-  <div> <img alt="Profile image of Sofia Lennbom" class="logo" src="../../Sofia.webp" />
+  <div> <img alt="Profile image of Sofia Lennbom" class="logo" src="/assets/Sofia.webp" />
    
     <h1 class="text-3xl font-bold text-black">Hello</h1> 
     <h2 class="text-3xl font-bold">I´m Sofia Lennbom</h2>   
