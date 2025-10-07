@@ -32,6 +32,7 @@
           class="w-4 h-4 hover:grayscale hover:opacity-80 transition-all" 
         />        
       </a>
-    </div>
+    </div>    
+
   </footer>
 </template>

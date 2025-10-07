@@ -2,6 +2,8 @@
 import HeaderSection from './components/HeaderSection.vue';
 import FooterSection from './components/FooterSection.vue';
 import ProjectsSection from './components/ProjectsSection.vue';
+import ScrollToTop from './components/ScrollToTop.vue';
+import TopArrow from './components/TopArrow.vue';
 </script>
 
 <template>
@@ -9,6 +11,12 @@ import ProjectsSection from './components/ProjectsSection.vue';
     <HeaderSection />
     <main class="flex-grow">
       <ProjectsSection />
+
+      <!-- decide on top arrow -->
+      <ScrollToTop />
+      <TopArrow />
+      <!--  -->
+      
     </main>
       <FooterSection />
   </div>
