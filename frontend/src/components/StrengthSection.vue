@@ -20,6 +20,7 @@ const strengths = ref([
 </script>
 
 <template>
+  <div class="border-l-4 border-gray-500">
   <div class="flex justify-center items-center p-6 bg-gray-100">
     <h2 class="text-2xl font-bold">Strengths</h2>
   </div>
@@ -27,5 +28,5 @@ const strengths = ref([
       <li v-for="strength in strengths" :key="strength">{{ strength }}</li>
     </ul>
  
-  
+  </div>
 </template>
