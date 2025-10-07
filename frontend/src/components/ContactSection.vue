@@ -7,7 +7,7 @@ export default {
 </script>
 
 <template>
-  <div class="contact">
+  <div class="flex flex-col items-center justify-center py-8">
     <h2 class="text-3xl font-bold">Contact me</h2>     
     <ul>
       <li>
@@ -17,10 +17,21 @@ export default {
         <a href="sofialennbom@gmail.com">sofialennbom@gmail.com</a> 
       </li>
       <li>
-        <a href="https://www.linkedin.com/in/sofia-lennbom-91252195/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://www.linkedin.com/in/sofia-lennbom-91252195/" target="_blank" rel="noopener noreferrer">
+          <img 
+          src="https://linkedin.com/favicon.ico" 
+          alt="LinkedIn icon" 
+          class="w-4 h-4 hover:grayscale hover:opacity-80 transition-all" 
+        /></a>
       </li>
       <li>        
-        <a href="https://github.com/solen80a" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://github.com/solen80a" target="_blank" rel="noopener noreferrer">
+        <img 
+          src="https://github.com/favicon.ico" 
+          alt="GitHub icon" 
+          class="w-4 h-4 hover:grayscale hover:opacity-80 transition-all" 
+        />
+        </a>
       </li>
     </ul>  
       </div>

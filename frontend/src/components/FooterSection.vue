@@ -3,9 +3,9 @@
 </script>
 
 <template>
-  <footer class="footer flex items-center justify-center py-4 bg-gray-100">
+  <footer class="flex items-center justify-evenly py-4 px-4 bg-gray-100">
     <p>© 2024 Sofia Lennbom</p>
-    <div class="flex px-4 space-x-4">
+    <div class="flex justify-center px-4 space-x-4">
       <a 
         href="https://github.com/solen80a" 
         target="_blank" 

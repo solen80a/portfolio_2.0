@@ -12,7 +12,7 @@ export default {
 </script>
 
 <template>
-  <header class="header flex items-center justify-center min-h-screen py-2">     
+  <header class="flex justify-evenly items-center py-2 max-w-400 mx-auto rounded-lg bg-gray-100 shadow-md space-y-4">     
     <AboutSection />
     <ContactSection />  
   </header> 

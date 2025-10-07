@@ -30,7 +30,7 @@ const config = {
 </script>
 
 <template>
-  <div class="carousel-container p-6">
+  <div class="carousel-container p-6 max-w-4xl mx-auto w-full">
     <!-- Loading state to prevent initial strobing -->
     <div v-if="!isCarouselReady" class="flex justify-center items-center" style="height: 400px;">
       <div class="text-gray-500">Loading carousel...</div>
