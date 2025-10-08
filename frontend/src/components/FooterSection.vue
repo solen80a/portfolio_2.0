@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <footer class="flex items-center justify-evenly py-4 px-4 bg-gray-100 rounded-xl shadow-md m-4">
+  <footer class="flex items-center justify-evenly py-4 px-4 bg-main rounded-xl shadow-md m-4 min-w-80">
     <p>© 2025 Sofia Lennbom</p>
     <div class="flex justify-center px-4 space-x-4">
       <a 
@@ -15,7 +15,7 @@
         <img 
           src="/assets/github-mark.png" 
           alt="GitHub icon" 
-          class="w-8 h-8 hover:text-main-accent hover:opacity-80 transition-all" 
+          class="w-4 md:w-8 h-4 md:h-8 hover:text-main-accent hover:opacity-80 transition-all" 
         />
         
       </a>
@@ -29,7 +29,7 @@
         <img 
           src="/assets/LinkedIn-Black.png" 
           alt="LinkedIn icon" 
-          class="w-8 h-8 hover:text-main-accent hover:opacity-80 transition-all" 
+          class="w-4 md:w-8 h-4 md:h-8 hover:text-main-accent hover:opacity-80 transition-all" 
         />        
       </a>
 
