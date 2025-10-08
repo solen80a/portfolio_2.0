@@ -5,7 +5,7 @@ import TechStackSection from './TechStackSection.vue';
 </script>
 
 <template>
-  <div class="flex justify-evenly items-start p-6 bg-gray-100 rounded-xl shadow-md m-4">
+  <div class="flex justify-evenly items-start bg-main rounded-xl shadow-md m-2 md:m-4 p-4 md:p-8 min-w-80 md:max-w-400">
     <TechStackSection />
     <StrengthSection />
    

@@ -6,8 +6,10 @@ const techStack = ref([
   'HTML5',
   'CSS3',
   'Styled components',
+  'Tailwind CSS',
   'React',
   'Vue.js',
+  'Version control with Git',
   'GitHub',
   'Bitbucket',
   'Jenkins',
@@ -15,26 +17,22 @@ const techStack = ref([
   'MongoDB',
   'Node.js',
   'Express.js',
-  'RESTful APIs',
-  'Version control with Git',
-  'CI/CD pipelines',
+  'RESTful APIs',    
   'Figma',
   'Slack',
   'Jira',
   'Confluence',
   'Office 365',
-  'Responsive design',
-  'Cross-browser compatibility',
 ]);
 </script>
 
 <template>
-  <div class="border-l-4 border-gray-500">
-    <div class="flex justify-center items-center p-6 bg-gray-100">
+  <div class="md:border-l-4 md:border-main-text">
+    <div class="flex justify-center items-center p-4 md:p-8">
       <h2 class="text-2xl font-bold">Technical</h2>
     </div>
 
-    <ul class="flex flex-col flex-wrap gap-2 p-4 bg-gray-100">
+    <ul class="flex flex-col flex-wrap p-2 md:p-4">
       <li v-for="skill in techStack" :key="skill">{{ skill }}</li>
     </ul>
   </div>
