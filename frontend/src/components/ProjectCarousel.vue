@@ -18,28 +18,41 @@ onMounted(async () => {
 })
 
 const config = {
-  itemsToShow: 2.5,
+  itemsToShow: 1.25, // Default for mobile
   wrapAround: false, // true made it strobe???
   autoplay: 0,
   transition: 300,
   gap: 20,
   mouseDrag: true,
   touchDrag: true,
-  snapAlign: 'start'
+  snapAlign: 'start',
+  // Responsive breakpoints
+  breakpoints: {
+    // 640px and up (sm): show 1.5 items
+    640: {
+      itemsToShow: 1.5,
+      gap: 16
+    },
+    // 768px and up (md): show 2 items  
+    768: {
+      itemsToShow: 2.5,
+      gap: 20
+    }    
+  }
 }
 </script>
 
 <template>
-  <div class="carousel-container p-6 max-w-4xl mx-auto w-full">
+  <div class="carousel-container m-2 md:m-4 p-4 md:p-8 min-w-80 max-w-400 mx-auto w-full">
     <!-- Loading state to prevent initial strobing -->
     <div v-if="!isCarouselReady" class="flex justify-center items-center" style="height: 400px;">
-      <div class="text-gray-500">Loading carousel...</div>
+      <div class="text-main-text">Loading carousel...</div>
     </div>
     
     <!-- Carousel renders only when ready -->
     <Carousel v-else v-bind="config">
       <Slide v-for="(project, index) in projectsList" :key="index">
-        <div class="bg-white rounded-xl shadow-lg overflow-hidden" style="height: 400px; width: 100%;">
+        <div class="bg-main border-2 border-main-text rounded-xl shadow-lg overflow-hidden" style="height: 400px; width: 100%;">
           <!-- Image Section -->
           <div 
             style="
@@ -85,9 +98,9 @@ const config = {
           </div>
           
           <!-- Content Section -->
-          <div class="p-6">
-            <h3 class="text-xl font-bold text-gray-800 mb-3 line-clamp-2">{{ project.name }}</h3>
-            <p class="text-gray-600 text-sm leading-relaxed line-clamp-3">{{ project.content }}</p>
+          <div class="bg-main m-2 md:m-4 p-4 md:p-8">
+            <h3 class="text-xl font-bold mb-3 line-clamp-2">{{ project.name }}</h3>
+            <p class="md:text-sm leading-relaxed line-clamp-3">{{ project.content }}</p>
           </div>
         </div>    
       </Slide>  
@@ -103,9 +116,9 @@ const config = {
 <style>
 /* Custom CSS Variables for vue3-carousel (can't be converted to Tailwind) */
 .carousel-container .carousel {
-  --vc-pgn-background-color: rgba(255, 255, 255, 0.9);
-  --vc-pgn-active-color: rgba(59, 130, 246, 1);
-  --vc-nav-background: rgba(255, 255, 255, 0.9);
+  --vc-pgn-background-color: #EBEBEB;
+  --vc-pgn-active-color: #292828;
+  --vc-nav-background: #EBEBEB;
   --vc-nav-border-radius: 100%;
 }
 
