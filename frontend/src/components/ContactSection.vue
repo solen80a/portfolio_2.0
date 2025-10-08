@@ -7,8 +7,8 @@ export default {
 </script>
 
 <template>
-  <div class="flex flex-col items-start justify-center py-8 px-4 space-y-4 max-w-400 mx-auto">
-    <h2 class="text-2xl font-bold ">Let´s Talk</h2>     
+  <div class="flex flex-col items-start justify-center py-4 md:py-8 px-2 md:px-4 space-y-4 mb-4 md:max-w-400 md:mx-auto ">
+    <h2 class="font-family-rubik text-2xl md:text-4xl font-bold">Let´s Talk</h2>     
     <ul class="space-y-2">
       <li>
         <a href= "+46705623461" class=" hover:text-gray-900">+46(0)705 62 34 61</a>

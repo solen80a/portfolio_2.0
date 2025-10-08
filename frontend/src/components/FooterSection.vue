@@ -13,9 +13,9 @@
         class="flex items-center"
       >
         <img 
-          src="https://github.com/favicon.ico" 
+          src="/assets/github-mark.png" 
           alt="GitHub icon" 
-          class="w-8 h-8 hover:grayscale hover:opacity-80 transition-all" 
+          class="w-8 h-8 hover:text-main-accent hover:opacity-80 transition-all" 
         />
         
       </a>
@@ -27,15 +27,15 @@
         class="flex items-center"
       >
         <img 
-          src="https://linkedin.com/favicon.ico" 
+          src="/assets/LinkedIn-Black.png" 
           alt="LinkedIn icon" 
-          class="w-8 h-8 hover:grayscale hover:opacity-80 transition-all" 
+          class="w-8 h-8 hover:text-main-accent hover:opacity-80 transition-all" 
         />        
       </a>
-       
-      <a href="CV.pdf" class="text-gray-600 hover:text-gray-900">CV</a>
-      
-    </div>    
+
+      <a href="CV.pdf" class=" hover:text-main-accent">CV</a>
+
+    </div>
 
   </footer>
 </template>

@@ -12,7 +12,7 @@ export default {
 </script>
 
 <template>
-  <header class="flex justify-evenly items-start py-2 max-w-400 bg-main shadow-md space-y-4 rounded-xl m-4">     
+  <header class="flex flex-col md:flex-row justify-evenly items-start py-1 md:py-2 min-w-80 md:max-w-400 bg-main shadow-md space-y-4 rounded-xl m-2 md:m-4">     
     <AboutSection />
     <ContactSection />  
   </header> 
