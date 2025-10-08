@@ -1,11 +1,26 @@
 {
   "compilerOptions": {
-    "module": "node16", // Use 'esnext', 'node16', or another compatible option
-    "target": "esnext", // Ensure the target is modern enough
-    "moduleResolution": "node16",
+    "module": "esnext",
+    "target": "esnext",
+    "moduleResolution": "bundler",
     "strict": true,
     "esModuleInterop": true,
-     "types": ["node", "vue-router"]
+    "allowImportingTsExtensions": true,
+    "noEmit": true,
+    "skipLibCheck": true,
+    "types": [
+      "node"
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ]
+    }
   },
-  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.vue"]
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/*.vue"
+  ]
 }

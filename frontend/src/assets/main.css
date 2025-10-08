@@ -1,11 +1,26 @@
-/*@import './base.css';*/
+/* Import Tailwind CSS v4 */
 @import "tailwindcss";
+
+@theme {
+  /* Font families - Tailwind v4 syntax */
+  --font-family-nunito: 'Nunito', sans-serif;
+  --font-family-rubik: 'Rubik', sans-serif;
+
+  /* Custom colors - Tailwind v4 syntax */
+  --color-main: #7D8471;
+  --color-main-accent: #CEB1AC;
+  --color-main-text: #292828;
+  --color-main-light: #EBEBEB;
+}
 
 #app {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   font-weight: normal;
+  font-family: var(--font-family-nunito);
+  color: var(--color-main-text);
+
 }
 
 /* 

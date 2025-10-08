@@ -6,17 +6,15 @@ export default {
 </script>
 
 <template>
-  <div>
-    <div class="bg-[url(/assets/Sofia.webp)] bg-linear-gradient-to-b from-white to-gray-100 bg-no-repeat bg-contain bg-gray-100 h-screen flex flex-col items-start justify-start py-8 space-y-4 px-4">     
-    <h1 class="text-3xl font-bold text-black">Hello</h1> 
-    <h2 class="text-3xl font-bold">I´m Sofia Lennbom</h2> 
-    <!-- <img alt="Profile image of Sofia Lennbom" class="max-w-full h-auto " src="/assets/Sofia.webp" />   -->
-    
+  <div class=" py-8 px-4 space-y-4 max-w-400 mx-auto">
+    <div class="bg-[url(/assets/Sofia_org_nosmile.JPG)] bg-linear-gradient-to-b from-white to-gray-100 bg-no-repeat bg-contain bg-main-accent bg-right rounded-lg h-screen flex flex-col items-start justify-start py-8 space-y-4 px-4">     
+    <h1 class="font-family-rubik text-8xl font-bold ">Hello</h1> 
+    <h2 class=" text-2xl font-bold ">I´m Sofia Lennbom</h2>    
   </div>
   <div>
-    <p>Frontend Developer with a Background in Quality Assurance, </p>
-    <p>Technical documentation and Training</p>
-    <p> I’m a developer with a curious mindset, eager to learn and build thoughtful digital experiences. I value quality—not just in code, but in the impact it creates.
+    <h3 class="text-xl font-bold ">Frontend Developer with a Background in Quality Assurance, </h3>
+    <h3 class="text-xl font-bold ">Technical documentation and Training</h3>
+    <p class=""> I’m a developer with a curious mindset, eager to learn and build thoughtful digital experiences. I value quality - not just in code, but in the impact it creates.
         Loyal and hands-on, I’m a team player who takes initiative and enjoys tackling challenges to deliver meaningful, well-crafted solutions.</p>
   </div>
 
