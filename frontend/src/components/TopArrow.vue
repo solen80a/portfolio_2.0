@@ -31,7 +31,7 @@ onUnmounted(() => {
   <div v-if="visible" class="fixed bottom-6 left-1/2 -translate-x-1/2 z-50">
     <button
       @click="scrollToTop"
-      class="bg-accent shadow-lg rounded-full p-3 hover:bg-accent/90 transition-colors"
+      class="bg-main-accent shadow-lg rounded-full p-4 hover:bg-main-light transition-colors"
     >
       <!-- Arrow Up Circle Icon - Exchange for a icon library later -->
       <svg

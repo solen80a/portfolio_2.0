@@ -32,7 +32,7 @@ onUnmounted(() => {
   <div v-if="visible" class="fixed bottom-6 right-6 z-50">
     <button 
       @click="scrollToTop"
-      class="bg-gray-600 hover:bg-gray-700 text-white p-3 rounded-full shadow-lg transition-colors duration-300"
+      class="bg-main-accent hover:bg-main-text text-main-text hover:text-main-light p-4 rounded-full shadow-lg transition-colors duration-300"
       aria-label="Scroll to top"
     >
       <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
