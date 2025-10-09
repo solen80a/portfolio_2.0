@@ -2,7 +2,7 @@
 import HeaderSection from './components/HeaderSection.vue';
 import FooterSection from './components/FooterSection.vue';
 import ProjectsSection from './components/ProjectsSection.vue';
-import ScrollToTop from './components/ScrollToTop.vue';
+import ScrollToNext from './components/ScrollToNext.vue';
 import TopArrow from './components/TopArrow.vue';
 import SkillsSection from './components/SkillsSection.vue';
 </script>
@@ -10,13 +10,15 @@ import SkillsSection from './components/SkillsSection.vue';
 <template>
   <div id="app" class="min-h-screen flex flex-col justify-items-center">
     <HeaderSection />
+    <ScrollToNext />
     <main class="flex-grow">
       <ProjectsSection />
-    <SkillsSection />
-
+      <ScrollToNext />
+      <SkillsSection />
+      <ScrollToNext />
       <!-- decide on top arrow -->
-      <ScrollToTop />
-      <TopArrow />
+      
+      <!-- <TopArrow /> -->
       <!--  -->
 
     </main>
