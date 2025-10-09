@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <footer id="footer-section" class="flex items-center justify-evenly py-4 px-4 bg-main rounded-xl shadow-md m-4 min-w-80 max-w-400">
+  <footer id="footer-section" class="flex items-center justify-evenly m-2 md:m-4 p-4 md:p-8 bg-main rounded-xl shadow-md  min-w-80 max-w-400">
     <p>© 2025 Sofia Lennbom</p>
     <div class="flex justify-center px-4 space-x-4">
       <a 
