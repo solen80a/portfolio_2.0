@@ -1,6 +1,7 @@
 /* Import Tailwind CSS v4 */
 @import "tailwindcss";
 
+/* Tailwind v4 theme configuration */
 @theme {
   /* Font families */
   --font-family-nunito: 'Nunito', sans-serif;
@@ -12,8 +13,9 @@
   --color-main-text: #000000;
   --color-main-light: #EBEBEB;
 
-
-
+  /* Font family utilities */
+  --font-family-nunito: 'Nunito', sans-serif;
+  --font-family-rubik: 'Rubik', sans-serif;
 }
 
 #app {
