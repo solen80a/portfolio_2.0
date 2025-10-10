@@ -12,10 +12,6 @@
   --color-main-accent: #CEB1AC;
   --color-main-text: #000000;
   --color-main-light: #EBEBEB;
-
-  /* Font family utilities */
-  --font-family-nunito: 'Nunito', sans-serif;
-  --font-family-rubik: 'Rubik', sans-serif;
 }
 
 #app {
