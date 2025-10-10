@@ -1,10 +1,10 @@
 <script setup>
-import HeaderSection from './components/HeaderSection.vue';
-import FooterSection from './components/FooterSection.vue';
-import ProjectsSection from './components/ProjectsSection.vue';
+import HeaderSection from './sections/HeaderSection.vue';
+import FooterSection from './sections/FooterSection.vue';
+import ProjectsSection from './sections/ProjectsSection.vue';
 import ScrollToNext from './components/ScrollToNext.vue';
 import TopArrow from './components/TopArrow.vue';
-import SkillsSection from './components/SkillsSection.vue';
+import SkillsSection from './sections/SkillsSection.vue';
 </script>
 
 <template>

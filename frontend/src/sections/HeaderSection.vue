@@ -1,6 +1,6 @@
 <script>
-import AboutSection from './AboutSection.vue';
-import ContactSection from './ContactSection.vue';
+import AboutSection from '../components/AboutSection.vue';
+import ContactSection from '../components/ContactSection.vue';
 
 export default {
   name: 'HeaderSection',

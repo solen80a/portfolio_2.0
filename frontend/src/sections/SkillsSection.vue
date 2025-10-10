@@ -1,6 +1,6 @@
 <script setup>
-import StrengthSection from './StrengthSection.vue';
-import TechStackSection from './TechStackSection.vue';
+import StrengthSection from '../components/StrengthSection.vue';
+import TechStackSection from '../components/TechStackSection.vue';
 
 </script>
 

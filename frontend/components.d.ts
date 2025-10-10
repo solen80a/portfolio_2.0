@@ -10,7 +10,7 @@ declare module 'vue' {
   export interface GlobalComponents {
     AboutSection: typeof import('./src/components/AboutSection.vue')['default']
     ContactSection: typeof import('./src/components/ContactSection.vue')['default']
-    FooterSection: typeof import('./src/components/FooterSection.vue')['default']
+    FooterSection: typeof import('./src/sections/FooterSection.vue')['default']
     HeaderSection: typeof import('./src/components/HeaderSection.vue')['default']
     HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
     IconCommunity: typeof import('./src/components/icons/IconCommunity.vue')['default']
@@ -18,7 +18,7 @@ declare module 'vue' {
     IconEcosystem: typeof import('./src/components/icons/IconEcosystem.vue')['default']
     IconSupport: typeof import('./src/components/icons/IconSupport.vue')['default']
     IconTooling: typeof import('./src/components/icons/IconTooling.vue')['default']
-    ProjectsSection: typeof import('./src/components/ProjectsSection.vue')['default']
+    ProjectsSection: typeof import('./src/sections/ProjectsSection.vue')['default']
 
     TheWelcome: typeof import('./src/components/TheWelcome.vue')['default']
 
