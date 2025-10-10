@@ -49,50 +49,29 @@ const config = {
       <div class="text-main-text">Loading carousel...</div>
     </div>
     
-    <!-- Carousel renders only when ready -->
+  
     <Carousel v-else v-bind="config">
       <Slide v-for="(project, index) in projectsList" :key="index">
-        <div class="bg-main border-2 border-main-text rounded-xl shadow-lg overflow-hidden" style="height: 400px; width: 100%;">
+        <div class="bg-main border-2 border-main-accent rounded-xl shadow-lg overflow-hidden" style="height: 400px; width: 100%;">
           <!-- Image Section -->
           <div 
-            style="
-              height: 200px; 
-              background: linear-gradient(45deg, #f3f4f6, #e5e7eb); 
-              overflow: hidden;
-              position: relative;
-            "
+            class="relative h-50 overflow-hidden"
+            style="background: linear-gradient(45deg, #f3f4f6, #e5e7eb);"
           >
             <img 
               :src="project.image" 
               :alt="project.name" 
-              style="
-                width: 100%; 
-                height: 100%; 
-                object-fit: cover; 
-                position: absolute;
-                top: 0;
-                left: 0;
-              "
+              class="w-full h-full object-cover absolute top-0 left-0"
               loading="lazy"
               decoding="async"
             />
             
             <!-- Community badge -->
-            <img 
+            <img
+              class="absolute bottom-2 right-2 w-8 h-8 rounded-full object-cover border-2 border-main-accent shadow-sm" 
               v-if="project.community"
               :src="project.community" 
               :alt="project.communityname || 'Community'" 
-              style="
-                position: absolute;
-                bottom: 8px;
-                right: 8px;
-                width: 32px;
-                height: 32px;
-                border-radius: 50%;
-                object-fit: cover;
-                border: 2px solid white;
-                box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-              "
               loading="lazy"
             />
           </div>
@@ -116,9 +95,9 @@ const config = {
 <style>
 /* Custom CSS Variables for vue3-carousel (can't be converted to Tailwind) */
 .carousel-container .carousel {
-  --vc-pgn-background-color: #EBEBEB;
-  --vc-pgn-active-color: #292828;
-  --vc-nav-background: #EBEBEB;
+  --vc-pgn-background-color: #CEB1AC;
+  --vc-pgn-active-color: #EBEBEB;
+  --vc-nav-background: #CEB1AC;
   --vc-nav-border-radius: 100%;
 }
 

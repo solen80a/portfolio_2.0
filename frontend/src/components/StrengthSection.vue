@@ -21,7 +21,7 @@ const strengths = ref([
 </script>
 
 <template>
-  <div class="md:border-l-4 md:border-main-text">
+  <div class="border-l-4 border-main-accent">
   <div class="flex justify-center items-center p-4 md:p-8">
     <h2 class="text-2xl font-bold">Strengths</h2>
   </div>

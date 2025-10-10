@@ -11,8 +11,8 @@ export default {
   <div class="py-4 md:py-8 px-2 md:px-4 space-y-4 md:max-w-400 mx-auto">
     <div class="bg-[url(/assets/Sofia_org_nosmile.JPG)] bg-linear-gradient-to-b from-white to-gray-100 bg-no-repeat bg-contain bg-main-accent bg-right rounded-lg md:h-screen flex flex-col items-start justify-start py-8 space-y-4 px-4">
       <div>
- <h1 class="font-family-rubik text-4xl md:text-8xl font-bold ">Hello</h1> 
-    <h2 class="text-xl md:text-2xl font-bold">I´m Sofia Lennbom</h2>  
+ <h1 class="font-family-rubik text-4xl md:text-8xl font-bold text-main-text">Hello</h1> 
+    <h2 class="text-xl md:text-2xl font-bold text-main-text">I´m Sofia Lennbom</h2>  
       </div>     
      
   </div>

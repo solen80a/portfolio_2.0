@@ -27,7 +27,7 @@ const techStack = ref([
 </script>
 
 <template>
-  <div class="md:border-l-4 md:border-main-text">
+  <div class="md:border-l-4 md:border-main-accent">
     <div class="flex justify-center items-center p-4 md:p-8">
       <h2 class="text-2xl font-bold">Technical</h2>
     </div>

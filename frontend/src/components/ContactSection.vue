@@ -21,7 +21,7 @@ export default {
       <li>
         <a href="https://www.linkedin.com/in/sofia-lennbom-91252195/" target="_blank" rel="noopener noreferrer">
           <img 
-          src="/assets/LinkedIn-Black.png" 
+          src="/assets/LinkedIn-White.png" 
           alt="LinkedIn icon" 
           class="w-8 h-8  hover:text-main-accent hover:opacity-80 transition-all" 
         /></a>
@@ -30,7 +30,7 @@ export default {
       <li>        
         <a href="https://github.com/solen80a" target="_blank" rel="noopener noreferrer">
         <img 
-          src="/assets/github-mark.png" 
+          src="/assets/github-mark-white.png" 
           alt="GitHub icon" 
           class="w-8 h-8  hover:text-main-accent hover:opacity-80 transition-all" 
         />

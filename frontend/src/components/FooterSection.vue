@@ -13,7 +13,7 @@
         class="flex items-center"
       >
         <img 
-          src="/assets/github-mark.png" 
+          src="/assets/github-mark-white.png" 
           alt="GitHub icon" 
           class="w-4 md:w-8 h-4 md:h-8 hover:text-main-accent hover:opacity-80 transition-all" 
         />
@@ -27,7 +27,7 @@
         class="flex items-center"
       >
         <img 
-          src="/assets/LinkedIn-Black.png" 
+          src="/assets/LinkedIn-White.png" 
           alt="LinkedIn icon" 
           class="w-4 md:w-8 h-4 md:h-8 hover:text-main-accent hover:opacity-80 transition-all" 
         />        
