@@ -9,7 +9,7 @@
   /* Custom colors */
   --color-main: #7D8471;
   --color-main-accent: #CEB1AC;
-  --color-main-text: #292828;
+  --color-main-text: #000000;
   --color-main-light: #EBEBEB;
 
 
@@ -22,6 +22,6 @@
   padding: 2rem;
   font-weight: normal;
   font-family: var(--font-family-nunito);
-  color: var(--color-main-light);
+  color: var(--color-main-text);
 
 }

@@ -52,7 +52,7 @@ const config = {
   
     <Carousel v-else v-bind="config">
       <Slide v-for="(project, index) in projectsList" :key="index">
-        <div class="bg-main border-2 border-main-accent rounded-xl shadow-lg overflow-hidden" style="height: 400px; width: 100%;">
+        <div class="bg-main border-2 border-main-text rounded-xl shadow-lg overflow-hidden" style="height: 400px; width: 100%;">
           <!-- Image Section -->
           <div 
             class="relative h-50 overflow-hidden"
@@ -68,7 +68,7 @@ const config = {
             
             <!-- Community badge -->
             <img
-              class="absolute bottom-2 right-2 w-8 h-8 rounded-full object-cover border-2 border-main-accent shadow-sm" 
+              class="absolute bottom-2 right-2 w-8 h-8 rounded-full object-cover border-2 border-main-text shadow-sm" 
               v-if="project.community"
               :src="project.community" 
               :alt="project.communityname || 'Community'" 
@@ -96,7 +96,7 @@ const config = {
 /* Custom CSS Variables for vue3-carousel (can't be converted to Tailwind) */
 .carousel-container .carousel {
   --vc-pgn-background-color: #CEB1AC;
-  --vc-pgn-active-color: #EBEBEB;
+  --vc-pgn-active-color: #000000;
   --vc-nav-background: #CEB1AC;
   --vc-nav-border-radius: 100%;
 }
