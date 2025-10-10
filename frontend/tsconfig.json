@@ -22,6 +22,6 @@
     "src/**/*.ts",
     "src/**/*.d.ts",
     "src/**/*.vue",
-    "src/main.ts"
+    "src/main.js"
   ]
 }
