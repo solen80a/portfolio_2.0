@@ -3,6 +3,7 @@ import { ref, onMounted, nextTick } from 'vue'
 import 'vue3-carousel/carousel.css'
 import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel'
 import projects from '../data/projects.json'
+import { Github, Globe } from 'lucide-vue-next'
 
 const projectsList = projects.projects // All projects
 const isCarouselReady = ref(false)
@@ -77,9 +78,21 @@ const config = {
           </div>
           
           <!-- Content Section -->
-          <div class="bg-main m-2 md:m-4 p-4 md:p-8">
+          <div class="bg-main m-1 md:m-2 p-1 md:p-2">
+              <div class="flex items-start justify-end space-x-1.5">
+                <!-- Github icon -->
+                <a :href="project.github" target="_blank" class="bg-main-accent rounded-full shadow-lg p-2 hover:bg-main-text transition-colors">
+                  <!-- <img src="../../assets/icons/github_lucide.svg" alt="Github icon" class="w-6 h-6 text-main-text hover:text-main-light hover:bg-main-text transition-colors">               -->
+                  <Github class="w-6 h-6 text-main-text hover:text-main-light hover:bg-main-text transition-colors" />
+                </a>
+                <!-- Globe icon -->
+                <a :href="project.netlify" target="_blank" class="bg-main-accent rounded-full shadow-lg p-2 transition-colors hover:bg-main-text">
+                  <Globe 
+                  class="w-6 h-6 text-main-text hover:text-main-light hover:bg-main-text transition-colors" />
+                </a>
+              </div>            
             <h3 class="text-xl font-bold mb-3 line-clamp-2">{{ project.name }}</h3>
-            <p class="md:text-sm leading-relaxed line-clamp-3">{{ project.content }}</p>
+            <p class="md:text-sm leading-relaxed line-clamp-3">{{ project.content }}</p> 
           </div>
         </div>    
       </Slide>  
