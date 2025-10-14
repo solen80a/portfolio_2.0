@@ -4,6 +4,7 @@ import 'vue3-carousel/carousel.css'
 import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel'
 import projects from '../data/projects.json'
 import { Github, Globe } from 'lucide-vue-next'
+import ProjectModal from './ProjectModal.vue'
 
 const projectsList = projects.projects // All projects
 const isCarouselReady = ref(false)
@@ -41,6 +42,10 @@ const config = {
     }    
   }
 }
+
+// const OpenModal = () => {
+//   console.log("Open modal")
+// }
 </script>
 
 <template>
@@ -101,7 +106,10 @@ const config = {
                 </a>
               </div>            
             <h3 class="text-xl font-bold mb-3 line-clamp-2">{{ project.name }}</h3>
-            <p class="md:text-sm leading-relaxed line-clamp-3">{{ project.content }}</p> 
+            <p class="md:text-sm leading-relaxed line-clamp-3">{{ project.content }}</p>
+            <div class="flex justify-end"> 
+              <ProjectModal :project="project" />             
+            </div>            
           </div>
         </div>    
       </Slide>  
