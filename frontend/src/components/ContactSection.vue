@@ -36,7 +36,8 @@ import { Github, Linkedin, FileText, FileDown } from 'lucide-vue-next';
           <Github class="w-6 h-6 text-main-text hover:text-main-light hover:bg-main-text transition-colors" />
       </a>
       <a 
-        href="CV.pdf"
+        href="/assets/Sofia_Lennbom_CV.pdf"
+        download="Sofia _Lennbom_CV"
         class="bg-main-accent rounded-full shadow-lg p-2 hover:bg-main-text transition-colors">
         <FileText class="w-6 h-6 text-main-text hover:text-main-light hover:bg-main-text transition-colors"/>
       </a>

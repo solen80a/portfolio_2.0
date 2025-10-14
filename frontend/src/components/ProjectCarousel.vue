@@ -59,13 +59,22 @@ const config = {
             class="relative h-50 overflow-hidden"
             style="background: linear-gradient(45deg, #f3f4f6, #e5e7eb);"
           >
+          <!-- Static -->
+            <img 
+              src="/assets/background_16_9.png" 
+              :alt="project.name" 
+              class="w-full h-full object-cover absolute top-0 left-0"
+              loading="lazy"
+              decoding="async"
+            />
+            <!-- Dynamic img from projects.json
             <img 
               :src="project.image" 
               :alt="project.name" 
               class="w-full h-full object-cover absolute top-0 left-0"
               loading="lazy"
               decoding="async"
-            />
+            /> -->
             
             <!-- Community badge -->
             <img
