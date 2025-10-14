@@ -1,5 +1,5 @@
 <script setup>
-import { Github, Linkedin, FileText, FileDown } from 'lucide-vue-next';
+import { Github, Linkedin, FileText } from 'lucide-vue-next';
 
 // export default {
 //   name: 'ContactSection',
@@ -9,7 +9,7 @@ import { Github, Linkedin, FileText, FileDown } from 'lucide-vue-next';
 <template>
   <div class="flex flex-col items-start justify-center py-4 md:py-8 px-2 md:px-4 space-y-4 mb-4 md:max-w-400 md:mx-auto ">
     <h2 class="font-family-rubik text-2xl md:text-4xl font-bold">Let´s Talk</h2>     
-    <div class="space-y-2">
+    <div class="flex flex-col space-y-2">
       <a href= "+46705623461" class=" hover:text-gray-900">+46(0)705 62 34 61</a> 
       <a href="sofialennbom@gmail.com" class=" hover:text-main-accent">sofialennbom@gmail.com</a> 
     </div>
