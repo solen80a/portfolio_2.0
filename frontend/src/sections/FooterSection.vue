@@ -1,4 +1,5 @@
 <script setup>
+import { Github, Linkedin, FileText, FileDown } from 'lucide-vue-next';
 
 </script>
 
@@ -7,6 +8,26 @@
     <a href="sofialennbom@gmail.com" class=" hover:text-main-accent">©2025 Sofia Lennbom</a> 
     <div class="flex justify-center px-4 space-x-4">
       <a 
+        href="https://www.linkedin.com/in/sofia-lennbom-91252195/" 
+        target="_blank" 
+        rel="noopener noreferrer" 
+        class="bg-main-accent rounded-full shadow-lg p-2 hover:bg-main-text transition-colors">     
+        <Linkedin class="w-6 h-6 text-main-text hover:text-main-light hover:bg-main-text transition-colors" />
+      </a>
+
+      <a href="https://github.com/solen80a" target="_blank" rel="noopener noreferrer"
+         class="bg-main-accent rounded-full shadow-lg p-2 hover:bg-main-text transition-colors">     
+          <Github class="w-6 h-6 text-main-text hover:text-main-light hover:bg-main-text transition-colors" />
+      </a>
+
+      <a 
+        href="/assets/Sofia_Lennbom_CV.pdf"
+        download="Sofia _Lennbom_CV"
+        class="bg-main-accent rounded-full shadow-lg p-2 hover:bg-main-text transition-colors">
+        <FileText class="w-6 h-6 text-main-text hover:text-main-light hover:bg-main-text transition-colors"/>
+      </a>
+
+      <!-- <a 
         href="https://github.com/solen80a" 
         target="_blank" 
         rel="noopener noreferrer"
@@ -31,10 +52,13 @@
           alt="LinkedIn icon" 
           class="w-4 md:w-8 h-4 md:h-8 hover:text-main-accent hover:opacity-80 transition-all" 
         />        
-      </a>
+      </a> 
 
-      <a href="CV.pdf" class=" hover:text-main-accent">CV</a>
+      <a href="CV.pdf" class=" hover:text-main-accent">
+      <FileText class="w-6 h-6 text-main-text hover:text-main-light hover:bg-main-text transition-colors"/>
+      </a> -->
 
+      
     </div>
 
   </footer>
