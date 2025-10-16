@@ -1,14 +1,6 @@
-<script>
+<script setup>
 import AboutSection from '../components/AboutSection.vue';
-import ContactSection from '../components/ContactSection.vue';
-
-export default {
-  name: 'HeaderSection',
-  components: {
-    AboutSection,
-    ContactSection
-  }}
-  
+import ContactSection from '../components/ContactSection.vue';  
 </script>
 
 <template>
