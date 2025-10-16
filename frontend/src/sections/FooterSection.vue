@@ -1,5 +1,5 @@
 <script setup>
-import { Github, Linkedin, FileText, FileDown } from 'lucide-vue-next';
+import { Github, Linkedin, FileText } from 'lucide-vue-next';
 
 </script>
 
