@@ -1,9 +1,5 @@
 <script setup>
 import { Github, Linkedin, FileText } from 'lucide-vue-next';
-
-// export default {
-//   name: 'ContactSection',
-// }
 </script>
 
 <template>
@@ -15,9 +11,10 @@ import { Github, Linkedin, FileText } from 'lucide-vue-next';
     </div>
     <div class="flex justify-center items-center space-x-4">
       <a 
-        href="https://www.linkedin.com/in/sofia-lennbom-91252195/" 
+        href="https://www.linkedin.com/in/sofia-lennbom-91252195/"         
         target="_blank" 
-        rel="noopener noreferrer" 
+        rel="icon"
+        title="Open LinkedIn" 
         class="bg-main-accent rounded-full shadow-lg p-2 hover:bg-main-text transition-colors">
            <!--  <img 
           src="/assets/LinkedIn-Black.png" 
@@ -26,8 +23,12 @@ import { Github, Linkedin, FileText } from 'lucide-vue-next';
         /> -->
         <Linkedin class="w-6 h-6 text-main-text hover:text-main-light hover:bg-main-text transition-colors" />
       </a>
-      <a href="https://github.com/solen80a" target="_blank" rel="noopener noreferrer"
-         class="bg-main-accent rounded-full shadow-lg p-2 hover:bg-main-text transition-colors">
+      <a 
+        href="https://github.com/solen80a" 
+        target="_blank" 
+        rel="icon"
+        title="Open Github" 
+        class="bg-main-accent rounded-full shadow-lg p-2 hover:bg-main-text transition-colors">
         <!-- <img 
           src="/assets/github-mark.png" 
           alt="GitHub icon" 
@@ -38,6 +39,8 @@ import { Github, Linkedin, FileText } from 'lucide-vue-next';
       <a 
         href="/assets/Sofia_Lennbom_CV.pdf"
         download="Sofia _Lennbom_CV"
+        rel="icon"
+        title="Download CV" 
         class="bg-main-accent rounded-full shadow-lg p-2 hover:bg-main-text transition-colors">
         <FileText class="w-6 h-6 text-main-text hover:text-main-light hover:bg-main-text transition-colors"/>
       </a>

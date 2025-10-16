@@ -38,10 +38,20 @@ const open = ref(false)
                         
                         <!-- Project Links -->
                         <div class="flex space-x-3 justify-left">
-                          <a :href="props.project.github" target="_blank" class="bg-main-accent rounded-full shadow-lg p-2 hover:bg-main-text transition-colors">
+                          <a 
+                            :href="props.project.github" 
+                            target="_blank" 
+                            rel="icon"
+                            title="Open Github" 
+                            class="bg-main-accent rounded-full shadow-lg p-2 hover:bg-main-text transition-colors">
                             <Github class="w-6 h-6 text-main-text hover:text-main-light hover:bg-main-text transition-colors" />
                           </a>
-                          <a :href="props.project.netlify" target="_blank" class="bg-main-accent rounded-full shadow-lg p-2 hover:bg-main-text transition-colors">
+                          <a 
+                            :href="props.project.netlify" 
+                            target="_blank" 
+                            rel="icon"
+                            title="Open Webpage" 
+                            class="bg-main-accent rounded-full shadow-lg p-2 hover:bg-main-text transition-colors">
                             <Globe class="w-6 h-6 text-main-text hover:text-main-light hover:bg-main-text transition-colors" />
                           </a>
                         </div>

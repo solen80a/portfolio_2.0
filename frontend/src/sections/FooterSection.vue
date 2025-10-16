@@ -10,19 +10,26 @@ import { Github, Linkedin, FileText, FileDown } from 'lucide-vue-next';
       <a 
         href="https://www.linkedin.com/in/sofia-lennbom-91252195/" 
         target="_blank" 
-        rel="noopener noreferrer" 
+        rel="icon"
+        title="Open LinkedIn"  
         class="bg-main-accent rounded-full shadow-lg p-2 hover:bg-main-text transition-colors">     
         <Linkedin class="w-6 h-6 text-main-text hover:text-main-light hover:bg-main-text transition-colors" />
       </a>
 
-      <a href="https://github.com/solen80a" target="_blank" rel="noopener noreferrer"
-         class="bg-main-accent rounded-full shadow-lg p-2 hover:bg-main-text transition-colors">     
+      <a 
+        href="https://github.com/solen80a" 
+        target="_blank" 
+        rel="icon"
+        title="Open Github" 
+        class="bg-main-accent rounded-full shadow-lg p-2 hover:bg-main-text transition-colors">     
           <Github class="w-6 h-6 text-main-text hover:text-main-light hover:bg-main-text transition-colors" />
       </a>
 
       <a 
         href="/assets/Sofia_Lennbom_CV.pdf"
         download="Sofia _Lennbom_CV"
+        rel="icon"
+        title="Download CV" 
         class="bg-main-accent rounded-full shadow-lg p-2 hover:bg-main-text transition-colors">
         <FileText class="w-6 h-6 text-main-text hover:text-main-light hover:bg-main-text transition-colors"/>
       </a>

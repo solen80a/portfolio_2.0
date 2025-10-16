@@ -95,12 +95,22 @@ const config = {
           <div class="bg-main m-1 md:m-2 p-1 md:p-2">
               <div class="flex items-start justify-end space-x-1.5">
                 <!-- Github icon -->
-                <a :href="project.github" target="_blank" class="bg-main-accent rounded-full shadow-lg p-2 hover:bg-main-text transition-colors">
+                <a 
+                  :href="project.github" 
+                  target="_blank" 
+                  rel="icon"
+                  title="Open Github" 
+                  class="bg-main-accent rounded-full shadow-lg p-2 hover:bg-main-text transition-colors">
                   <!-- <img src="../../assets/icons/github_lucide.svg" alt="Github icon" class="w-6 h-6 text-main-text hover:text-main-light hover:bg-main-text transition-colors">               -->
                   <Github class="w-6 h-6 text-main-text hover:text-main-light hover:bg-main-text transition-colors" />
                 </a>
                 <!-- Globe icon -->
-                <a :href="project.netlify" target="_blank" class="bg-main-accent rounded-full shadow-lg p-2 transition-colors hover:bg-main-text">
+                <a 
+                  :href="project.netlify" 
+                  target="_blank" 
+                  rel="icon"
+                  title="Open webpage" 
+                  class="bg-main-accent rounded-full shadow-lg p-2 transition-colors hover:bg-main-text">
                   <Globe 
                   class="w-6 h-6 text-main-text hover:text-main-light hover:bg-main-text transition-colors" />
                 </a>
@@ -130,6 +140,13 @@ const config = {
   --vc-nav-background: #CEB1AC;
   --vc-nav-border-radius: 100%;
 }
+
+.carousel__pagination-button {
+  height: 8px;
+  width: 20px;
+  border-radius: 5px;  
+}
+
 
 /* Line clamp utilities for text truncation */
 /* .line-clamp-2 {
