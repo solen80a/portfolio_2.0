@@ -115,8 +115,8 @@ const config = {
                   class="w-6 h-6 text-main-text hover:text-main-light hover:bg-main-text transition-colors" />
                 </a>
               </div>            
-            <h3 class="text-xl font-bold mb-3 line-clamp-2">{{ project.name }}</h3>
-            <p class="md:text-sm leading-relaxed line-clamp-3">{{ project.content }}</p>
+            <h3 class="mb-3">{{ project.name }}</h3>
+            <p class="leading-relaxed line-clamp-3">{{ project.content }}</p>
             <div class="flex justify-end"> 
               <ProjectModal :project="project" />             
             </div>            
